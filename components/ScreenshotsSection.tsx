@@ -53,19 +53,22 @@ const ScreenshotsSection = forwardRef<HTMLElement>((props, ref) => {
           Looks and feels just like texting a friend — because that’s what Rosa is designed to be.
         </p>
         <div className="mt-20 flex flex-col md:flex-row justify-center items-center md:items-start gap-y-16 md:gap-x-4 lg:gap-x-8">
-          {/* Mockup 1: Left */}
+          {/* Mockup 1: Far Left */}
+          
+
+          {/* Mockup 2: Left */}
           <div className="md:mt-12 transform md:rotate-[-4deg] transition-transform duration-500 ease-in-out hover:rotate-0 hover:scale-105">
-              <PhoneMockup imgSrc={screenshots[0].imgSrc} quote={screenshots[0].quote} animationDelay="0s" />
+              <PhoneMockup imgSrc={screenshots[0].imgSrc} quote={screenshots[0].quote} animationDelay="0.1s" />
           </div>
 
-          {/* Mockup 2: Center */}
+          {/* Mockup 3: Center */}
           <div className="md:scale-110 z-10 transition-transform duration-500 ease-in-out hover:scale-115">
               <PhoneMockup imgSrc={screenshots[1].imgSrc} quote={screenshots[1].quote} animationDelay="0.2s" />
           </div>
           
-          {/* Mockup 3: Right */}
+          {/* Mockup 4: Right */}
           <div className="md:mt-12 transform md:rotate-[4deg] transition-transform duration-500 ease-in-out hover:rotate-0 hover:scale-105">
-              <PhoneMockup imgSrc={screenshots[2].imgSrc} quote={screenshots[2].quote} animationDelay="0.4s" />
+              <PhoneMockup imgSrc={screenshots[2].imgSrc} quote={screenshots[2].quote} animationDelay="0.3s" />
           </div>
         </div>
         <div className="mt-20">
