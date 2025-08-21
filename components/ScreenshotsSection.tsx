@@ -28,20 +28,16 @@ const PhoneMockup: React.FC<PhoneMockupProps> = ({ imgSrc, quote, animationDelay
 
 const screenshots = [
   {
-    imgSrc: "/phone-mockup-images/convo1.png",
+    imgSrc: "/phone-mockup-images/convo2.png",
     quote: "Rosa spots patterns and helps reset baby’s routine with care."
   },
   {
-    imgSrc: "/phone-mockup-images/convo2.png",
+    imgSrc: "/phone-mockup-images/convo3.png",
     quote: "When doubts rise, Rosa reminds you: you’re doing enough."
   },
   {
-    imgSrc: "/phone-mockup-images/convo3.png",
-    quote: "A calm voice in the dark — Rosa stays by your side."
-  },
-  {
     imgSrc: "/phone-mockup-images/convo4.png",
-    quote: "Through ups and downs, Rosa helps you breathe easier."
+    quote: "A calm voice in the dark — Rosa stays by your side."
   }
 ];
 
