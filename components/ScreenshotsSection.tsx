@@ -28,19 +28,22 @@ const PhoneMockup: React.FC<PhoneMockupProps> = ({ imgSrc, quote, animationDelay
 
 const screenshots = [
   {
-    imgSrc: "/phone mockup images/Convo 2 .png",
+    imgSrc: "/phone-mockup-images/convo1.png",
     quote: "Rosa spots patterns and helps reset baby’s routine with care."
   },
   {
-    imgSrc: "/phone mockup images/Convo 3 .png",
+    imgSrc: "/phone-mockup-images/convo2.png",
     quote: "When doubts rise, Rosa reminds you: you’re doing enough."
   },
   {
-    imgSrc: "/phone mockup images/Convo 4.png",
+    imgSrc: "/phone-mockup-images/convo3.png",
     quote: "A calm voice in the dark — Rosa stays by your side."
+  },
+  {
+    imgSrc: "/phone-mockup-images/convo4.png",
+    quote: "Through ups and downs, Rosa helps you breathe easier."
   }
 ];
-
 
 const ScreenshotsSection = forwardRef<HTMLElement>((props, ref) => {
   const [showForm, setShowForm] = useState(false);
