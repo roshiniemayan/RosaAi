@@ -16,7 +16,7 @@ const HeroPhoneMockup: React.FC = () => {
         <div className="bg-gray-900 rounded-[calc(3rem-0.25rem)]">
           <div className="aspect-[9/19] w-full max-w-[300px] overflow-hidden rounded-[2.5rem] border-4 border-gray-800">
             <img 
-              src="/phone mockup images/Convo1Header.png" 
+              src="/images/Convo1Header.png" 
               alt="Rosa AI chat screenshot" 
               className="absolute inset-0 w-full h-full object-cover rounded-[2.5rem]" 
             />
