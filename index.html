@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rosa 🌙 – Your AI WhatsApp Friend for Parents</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'Poppins', sans-serif;
+        background-color: #0D1B2A;
+        color: #E5E7EB;
+      }
+      @keyframes pulse-glow {
+        0%, 100% {
+          box-shadow: 0 0 20px 0px rgba(167, 139, 250, 0.4);
+        }
+        50% {
+          box-shadow: 0 0 30px 10px rgba(167, 139, 250, 0.2);
+        }
+      }
+      .animate-pulse-glow {
+        animation: pulse-glow 3s infinite ease-in-out;
+      }
+      @keyframes float {
+        0%, 100% {
+          transform: translateY(0);
+        }
+        50% {
+          transform: translateY(-10px);
+        }
+      }
+      .animate-float {
+        animation: float 6s infinite ease-in-out;
+      }
+      @keyframes shimmer {
+        from { background-position-x: 0%; }
+        to { background-position-x: -200%; }
+      }
+      .animate-shimmer {
+        background-size: 200% auto !important;
+        animation: shimmer 3s linear infinite;
+      }
+      @keyframes breathe {
+        0%, 100% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(1.03);
+        }
+      }
+      .animate-breathe {
+        animation: breathe 4s infinite ease-in-out;
+      }
+      @keyframes border-chase {
+          0% { background-position: 0% 50%; }
+          50% { background-position: 100% 50%; }
+          100% { background-position: 0% 50%; }
+      }
+      .border-chase {
+          position: relative;
+          background-clip: padding-box;
+          border: 2px solid transparent;
+      }
+      .border-chase::before {
+          content: '';
+          position: absolute;
+          top: 0; right: 0; bottom: 0; left: 0;
+          z-index: -1;
+          margin: -2px; /* same as border width */
+          border-radius: inherit;
+          background: linear-gradient(to right, #A78BFA, #F59E0B, #A78BFA);
+          background-size: 200% 200%;
+          animation: border-chase 4s linear infinite;
+      }
+      @keyframes sparkle {
+        0% { opacity: 0; transform: scale(0.5) rotate(0deg); }
+        50% { opacity: 1; transform: scale(1) rotate(180deg); }
+        100% { opacity: 0; transform: scale(0.5) rotate(360deg); }
+      }
+      .sparkle {
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        background: white;
+        border-radius: 50%;
+        opacity: 0;
+        animation: sparkle 1.5s infinite;
+        pointer-events: none; /* Make sure they don't block clicks */
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.1.1/",
+    "react": "https://esm.sh/react@^19.1.1",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.1/"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
