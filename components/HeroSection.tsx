@@ -46,12 +46,7 @@ const HeroSection = forwardRef<HTMLElement>((props, ref) => {
                 You’re not alone in the sleepless nights - Meet <span style={{ textShadow: '0 0 20px #A78BFA' }}>Rosa 🌙</span>
               </h1>
               <p className="mt-6 max-w-2xl text-lg md:text-xl text-gray-300 leading-relaxed">
-                Your 2AM parenting buddy - always there on{' '}
-                <span className="font-semibold text-white whitespace-nowrap">
-                  WhatsApp
-                  <WhatsAppIcon />
-                </span>
-                . Science-backed baby sleep support - as easy as chatting with a friend.
+                We’re parents who’ve been through the endless wake-ups, the loneliness, and the overwhelm. So we made a <span className="font-bold text-white" style={{ textShadow: '0 0 10px #40C351' }}>WhatsApp <WhatsAppIcon /></span> companion to ease those hard nights.
               </p>
               <div className="mt-10">
                 <div className="flex flex-col items-center lg:items-start">
@@ -70,7 +65,7 @@ const HeroSection = forwardRef<HTMLElement>((props, ref) => {
                 </div>
               </div>
               <div className="mt-8 text-left text-gray-300 space-y-6">
-                <p className="text-lg font-semibold">🌙 Launching in your region soon — we’ll be available in just a week! Join the waitlist for early access.</p>
+                <p className="text-lg font-semibold">🌙 Launching soon in your region - and it’s completely free.</p>
                 <p className="text-sm italic">Created by two parents who know how hard those hours can be.</p>
               </div>
             </div>
