@@ -69,9 +69,10 @@ const HeroSection = forwardRef<HTMLElement>((props, ref) => {
                     )}
                 </div>
               </div>
-              <p className="mt-4 text-xl md:text-2xl text-white text-center lg:text-left lg:mt-6 lg:ml-2" style={{ textShadow: '0 0 10px rgba(255,255,255,0.5)' }}>
-                🌙 Launching in your region soon — we’ll be available in just a week! Join the waitlist for early access.
-              </p>
+              <div className="mt-8 text-left text-gray-300 space-y-6">
+                <p className="text-lg font-semibold">🌙 Launching in your region soon — we’ll be available in just a week! Join the waitlist for early access.</p>
+                <p className="text-sm italic">Created by two parents who know how hard those hours can be.</p>
+              </div>
             </div>
           </div>
 
